@@ -5,6 +5,7 @@ namespace App\Entity\Example;
 use Doctrine\ORM\Mapping as ORM;
 use Goulaheau\RestBundle\Entity\RestEntity;
 use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\Example\PostRepository")
@@ -17,6 +18,7 @@ class Post extends RestEntity
      *
      * @ORM\Column(type="string", length=255)
      * @Groups({"read", "update"})
+     * @Assert\NotBlank
      */
     protected $name;
 
@@ -33,7 +35,8 @@ class Post extends RestEntity
      *
      * @ORM\ManyToOne(targetEntity="App\Entity\Example\PostCategory", inversedBy="posts")
      * @ORM\JoinColumn(nullable=false)
-     * @Groups({"update"})
+     * @Groups({"read", "update"})
+     * @Assert\NotBlank
      */
     protected $category;
 

@@ -7,6 +7,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Goulaheau\RestBundle\Entity\RestEntity;
 use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\Example\PostCategoryRepository")
@@ -19,6 +20,8 @@ class PostCategory extends RestEntity
      *
      * @ORM\Column(type="string", length=255)
      * @Groups({"read", "update"})
+     * @Assert\NotBlank
+     * @Assert\Length(min="2", max="255")
      */
     protected $name;
 
@@ -26,6 +29,7 @@ class PostCategory extends RestEntity
      * @var Post[] | ArrayCollection
      *
      * @ORM\OneToMany(targetEntity="App\Entity\Example\Post", mappedBy="category")
+     * @Groups({"read"})
      */
     protected $posts;
 

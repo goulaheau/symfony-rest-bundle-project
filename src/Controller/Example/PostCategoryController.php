@@ -7,6 +7,7 @@ use App\Repository\Example\PostCategoryRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Goulaheau\RestBundle\Controller\RestController;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Serializer\SerializerInterface;
 use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 /**
@@ -14,8 +15,8 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
  */
 class PostCategoryController extends RestController
 {
-    public function __construct(PostCategoryRepository $repository, EntityManagerInterface $manager, ValidatorInterface $validator)
+    public function __construct(PostCategoryRepository $repository, EntityManagerInterface $manager, ValidatorInterface $validator, SerializerInterface $serializer)
     {
-        parent::__construct(PostCategory::class, $repository, $manager, $validator);
+        parent::__construct(PostCategory::class, $repository, $manager, $validator, $serializer);
     }
 }

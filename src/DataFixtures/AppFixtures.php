@@ -13,9 +13,6 @@ class AppFixtures extends Fixture
         // $product = new Product();
         // $manager->persist($product);
 
-        $user = (new User())->setFirstName('Enzo')->setLastName('Cornand');
-        $manager->persist($user);
-
         $manager->flush();
     }
 }
