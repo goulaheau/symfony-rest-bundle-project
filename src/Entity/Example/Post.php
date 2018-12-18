@@ -6,6 +6,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Goulaheau\RestBundle\Entity\RestEntity;
 use Symfony\Component\Serializer\Annotation\Groups;
 use Symfony\Component\Validator\Constraints as Assert;
+use Goulaheau\RestBundle\Validator\Constraints as GoulaheauAssert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\Example\PostRepository")
@@ -37,6 +38,7 @@ class Post extends RestEntity
      * @ORM\JoinColumn(nullable=false)
      * @Groups({"read", "update"})
      * @Assert\NotBlank
+     * @GoulaheauAssert\EntityExist
      */
     protected $category;
 
