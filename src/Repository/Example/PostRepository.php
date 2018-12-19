@@ -19,4 +19,9 @@ class PostRepository extends RestRepository
     {
         parent::__construct($registry, Post::class);
     }
+
+    public function implode(array $firstArray, array $secondArray)
+    {
+        return implode(',', $firstArray) . ',' . implode(',', $secondArray);
+    }
 }

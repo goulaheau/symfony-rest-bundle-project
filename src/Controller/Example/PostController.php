@@ -3,20 +3,24 @@
 namespace App\Controller\Example;
 
 use App\Entity\Example\Post;
-use App\Repository\Example\PostRepository;
-use Doctrine\ORM\EntityManagerInterface;
+use App\Service\Example\PostService;
+use Doctrine\Common\Persistence\ObjectManager;
 use Goulaheau\RestBundle\Controller\RestController;
+use Goulaheau\RestBundle\Utils\RestSerializer;
+use Goulaheau\RestBundle\Utils\RestValidator;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\Serializer\SerializerInterface;
-use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 /**
  * @Route("/example/post")
  */
 class PostController extends RestController
 {
-    public function __construct(PostRepository $repository, EntityManagerInterface $manager, ValidatorInterface $validator, SerializerInterface $serializer)
-    {
-        parent::__construct(Post::class, $repository, $manager, $validator, $serializer);
+    public function __construct(
+        PostService $service,
+        ObjectManager $manager,
+        RestValidator $validator,
+        RestSerializer $serializer
+    ) {
+        parent::__construct(Post::class, $service, $manager, $validator, $serializer);
     }
 }
