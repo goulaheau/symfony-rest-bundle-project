@@ -19,7 +19,7 @@ class PostCategory extends RestEntity
      * @var string
      *
      * @ORM\Column(type="string", length=255)
-     * @Groups({"read", "update"})
+     * @Groups({"readable", "editable"})
      * @Assert\NotBlank
      * @Assert\Length(min="2", max="255")
      */
@@ -29,7 +29,7 @@ class PostCategory extends RestEntity
      * @var Post[] | ArrayCollection
      *
      * @ORM\OneToMany(targetEntity="App\Entity\Example\Post", mappedBy="category")
-     * @Groups({"read"})
+     * @Groups({"readable"})
      */
     protected $posts;
 

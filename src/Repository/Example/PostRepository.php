@@ -17,7 +17,7 @@ class PostRepository extends RestRepository
 {
     public function __construct(RegistryInterface $registry)
     {
-        parent::__construct($registry, Post::class);
+        parent::__construct(Post::class, $registry);
     }
 
     public function implode(array $firstArray, array $secondArray)

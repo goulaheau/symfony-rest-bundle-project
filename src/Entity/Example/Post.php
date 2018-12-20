@@ -18,7 +18,7 @@ class Post extends RestEntity
      * @var string
      *
      * @ORM\Column(type="string", length=255)
-     * @Groups({"read", "update"})
+     * @Groups({"readable", "editable"})
      * @Assert\NotBlank
      */
     protected $name;
@@ -27,7 +27,7 @@ class Post extends RestEntity
      * @var string
      *
      * @ORM\Column(type="text", nullable=true)
-     * @Groups({"read", "update"})
+     * @Groups({"readable", "editable"})
      */
     protected $description;
 
@@ -36,7 +36,7 @@ class Post extends RestEntity
      *
      * @ORM\ManyToOne(targetEntity="App\Entity\Example\PostCategory", inversedBy="posts")
      * @ORM\JoinColumn(nullable=false)
-     * @Groups({"read", "update"})
+     * @Groups({"readable", "editable"})
      * @Assert\NotBlank
      * @RestAssert\EntityExist
      */
