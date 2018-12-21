@@ -3,7 +3,7 @@
 namespace App\Service\Example;
 
 use App\Entity\Example\PostCategory;
-use App\Repository\Example\PostRepository;
+use App\Repository\Example\PostCategoryRepository;
 use Doctrine\Common\Persistence\ObjectManager;
 use Goulaheau\RestBundle\Service\RestService;
 use Goulaheau\RestBundle\Utils\RestSerializer;
@@ -12,7 +12,7 @@ use Goulaheau\RestBundle\Utils\RestValidator;
 class PostCategoryService extends RestService
 {
     public function __construct(
-        PostRepository $repository,
+        PostCategoryRepository $repository,
         RestSerializer $serializer,
         RestValidator $validator,
         ObjectManager $manager

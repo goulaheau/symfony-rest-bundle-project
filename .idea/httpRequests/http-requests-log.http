@@ -1,0 +1,550 @@
+GET http://localhost:8000/example/post?name-like=%t%&_s=-id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050539.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=%t%
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050517.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050446.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050444.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050440.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050439.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050438.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050434.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050433.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050432.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050431.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050356.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050345.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050342.500.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050339.500.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050323.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050322.500.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050320.500.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050320.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050241.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050216.500.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050216.200.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050115.500.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T050100.500.json
+
+###
+
+GET http://localhost:8000/example/post?name-like=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T045927.500.json
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043749.200.json
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043745.500.html
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043511.500.html
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043504.500.html
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043329.500.html
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043319.500.html
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043319.200.json
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T043041.200.json
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T042833.200.json
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T042751.200.json
+
+###
+
+GET http://localhost:8000/example/post?name=Article
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T042713.500.html
+
+###
+
+GET http://localhost:8000/example/post?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T032145.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T032137.500.html
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T032057.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T032006.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T031924.200.json
+
+###
+
+GET http://localhost:8000/example/post?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T031917.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T031634.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T031554.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rm=implode&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T031423.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rm=implode&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T031413.500.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rm=implode&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T030954.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_em=special,special2&_efp[0][0]=test&_rf=implode&_rfp[0][0]=un&_rfp[0][1]=deux&_rfp[0][2]=trois&_rfp[1][0]=quatre&_rfp[1][1]=cinq&_rfp[1][2]=six&_efp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T030744.500.html
+
+###
+
+GET http://localhost:8000/example/post-category?_ef=special,special2&_efp[0][0]=test&_rf=implode&_rfp[0][0]=un&_rfp[0][1]=deux&_rfp[0][2]=trois&_rfp[1][0]=quatre&_rfp[1][1]=cinq&_rfp[1][2]=six&_efp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T030726.200.json
+
+###
+
+GET http://localhost:8000/example/post-category?_ef=special,special2&_efp[0][0]=test&_rf=implode&_rfp[0][0]=un&_rfp[0][1]=deux&_rfp[0][2]=trois&_rfp[1][0]=quatre&_rfp[1][1]=cinq&_rfp[1][2]=six&_efp[1][0]=coucou&_a=id,category.id
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{ "name": "Article", "category": 5 }
+
+<> 2018-12-21T030635.200.json
+
+###
+
