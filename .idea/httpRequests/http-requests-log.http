@@ -1,550 +1,498 @@
-GET http://localhost:8000/example/post?name-like=%t%&_s=-id
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1,2,3] }
 
-<> 2018-12-21T050539.200.json
+<> 2019-01-07T052401.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=%t%
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050517.200.json
+<> 2019-01-07T052322.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050446.200.json
+<> 2019-01-07T052251.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050444.200.json
+<> 2019-01-07T051809.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050440.200.json
+<> 2019-01-07T051808.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050439.200.json
+<> 2019-01-07T051805.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050438.200.json
+<> 2019-01-07T051746.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 1, "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050434.200.json
+<> 2019-01-07T051716.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050433.200.json
+<> 2019-01-07T051544.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050432.200.json
+<> 2019-01-07T051531.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050431.200.json
+<> 2019-01-07T051223.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050356.200.json
+<> 2019-01-07T051222.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050345.200.json
+<> 2019-01-07T051215.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050342.500.json
+<> 2019-01-07T051126.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050339.500.json
+<> 2019-01-07T050701.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050323.200.json
+<> 2019-01-07T050615.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8001/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050322.500.json
+<> 2019-01-07T050535.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8000/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050320.500.json
+<> 2019-01-07T050510.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8000/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050320.200.json
+<> 2019-01-07T050427.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8000/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "manyToMany": [1, 2, 3] }
 
-<> 2018-12-21T050241.200.json
+<> 2019-01-07T050336.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+GET http://localhost:8000/example/post?dsadad=dsaddas
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 5 }
 
-<> 2018-12-21T050216.500.json
+<> 2019-01-07T045543.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+GET http://localhost:8000/example/post?dsadad=dsaddas
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 5 }
 
-<> 2018-12-21T050216.200.json
+<> 2019-01-07T045252.500.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8000/example/post?dsadad=dsaddas
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 5 }
 
-<> 2018-12-21T050115.500.json
+<> 2019-01-07T045244.422.json
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8000/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 5 }
 
-<> 2018-12-21T050100.500.json
+<> 2019-01-07T045210.500.html
 
 ###
 
-GET http://localhost:8000/example/post?name-like=Article
+POST http://localhost:8000/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 5 }
 
-<> 2018-12-21T045927.500.json
+<> 2019-01-07T045152.422.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+POST http://localhost:8000/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T043749.200.json
+{"name": "Post 4", "category": 5 }
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+POST http://localhost:8000/example/post
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 5 }
 
-<> 2018-12-21T043745.500.html
+<> 2019-01-07T044141.422.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+POST http://localhost:8000/example/post-category
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
+{"name": "Post 4", "category": 5 }
 
-<> 2018-12-21T043511.500.html
+<> 2019-01-07T044102.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category/1
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T043504.500.html
+<> 2019-01-07T044017.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category/1
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T043329.500.html
+<> 2019-01-07T044011.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category/1
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T043319.500.html
+<> 2019-01-07T043923.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category/1
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T043319.200.json
+<> 2019-01-07T042105.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category/1
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T043041.200.json
+<> 2019-01-07T042028.201.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T042833.200.json
+<> 2019-01-07T041538.200.json
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T042751.200.json
+<> 2019-01-07T040844.500.html
 
 ###
 
-GET http://localhost:8000/example/post?name=Article
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T042713.500.html
+<> 2019-01-07T040815.500.html
 
 ###
 
-GET http://localhost:8000/example/post?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
-
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T032145.200.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T032137.500.html
+<> 2019-01-07T040307.500.html
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T032057.200.json
+<> 2019-01-07T040247.500.html
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T032006.200.json
+<> 2019-01-07T040118.500.html
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T031924.200.json
+<> 2019-01-07T035943.500.html
 
 ###
 
-GET http://localhost:8000/example/post?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T031917.200.json
+<> 2019-01-07T034815.500.html
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
-
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T031634.200.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
-
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T031554.200.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rm=implode&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T031423.200.json
+<> 2019-01-07T032400.200.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rm=implode&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T031413.500.json
+<> 2019-01-07T030931.200.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_emp[0][0]=test&_rm=implode&_rmp[0][0]=un&_rmp[0][1]=deux&_rmp[0][2]=trois&_rmp[1][0]=quatre&_rmp[1][1]=cinq&_rmp[1][2]=six&_emp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id-in=2&_j=manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T030954.200.json
+<> 2019-01-07T030918.200.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_em=special,special2&_efp[0][0]=test&_rf=implode&_rfp[0][0]=un&_rfp[0][1]=deux&_rfp[0][2]=trois&_rfp[1][0]=quatre&_rfp[1][1]=cinq&_rfp[1][2]=six&_efp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id-in=2
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T030744.500.html
+<> 2019-01-07T030856.500.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_ef=special,special2&_efp[0][0]=test&_rf=implode&_rfp[0][0]=un&_rfp[0][1]=deux&_rfp[0][2]=trois&_rfp[1][0]=quatre&_rfp[1][1]=cinq&_rfp[1][2]=six&_efp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id-in=2&_j=posts,posts.manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T030726.200.json
+<> 2019-01-07T030625.200.json
 
 ###
 
-GET http://localhost:8000/example/post-category?_ef=special,special2&_efp[0][0]=test&_rf=implode&_rfp[0][0]=un&_rfp[0][1]=deux&_rfp[0][2]=trois&_rfp[1][0]=quatre&_rfp[1][1]=cinq&_rfp[1][2]=six&_efp[1][0]=coucou&_a=id,category.id
+GET http://localhost:8000/example/post-category?_a=name&manyToMany.id-in=2&_j=posts,posts.manyToMany
 Accept: */*
 Cache-Control: no-cache
 Content-Type: application/json
 
-{ "name": "Article", "category": 5 }
-
-<> 2018-12-21T030635.200.json
+<> 2019-01-07T030348.200.json
 
 ###
 

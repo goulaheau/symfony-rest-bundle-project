@@ -33,9 +33,20 @@ class PostCategory extends RestEntity
      */
     protected $posts;
 
+    /**
+     * @ORM\OneToOne(targetEntity="App\Entity\Example\Post", mappedBy="oneToOne", cascade={"persist", "remove"})
+     */
+    private $oneToOne;
+
+    /**
+     * @ORM\ManyToMany(targetEntity="App\Entity\Example\Post", mappedBy="manyToMany")
+     */
+    private $manyToMany;
+
     public function __construct()
     {
         $this->posts = new ArrayCollection();
+        $this->manyToMany = new ArrayCollection();
     }
 
     public function getName(): ?string
@@ -76,6 +87,52 @@ class PostCategory extends RestEntity
             if ($post->getCategory() === $this) {
                 $post->setCategory(null);
             }
+        }
+
+        return $this;
+    }
+
+    public function getOneToOne(): ?Post
+    {
+        return $this->oneToOne;
+    }
+
+    public function setOneToOne(?Post $oneToOne): self
+    {
+        $this->oneToOne = $oneToOne;
+
+        // set (or unset) the owning side of the relation if necessary
+        $newOneToOne = $oneToOne === null ? null : $this;
+        if ($newOneToOne !== $oneToOne->getOneToOne()) {
+            $oneToOne->setOneToOne($newOneToOne);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Post[]
+     */
+    public function getManyToMany(): Collection
+    {
+        return $this->manyToMany;
+    }
+
+    public function addManyToMany(Post $manyToMany): self
+    {
+        if (!$this->manyToMany->contains($manyToMany)) {
+            $this->manyToMany[] = $manyToMany;
+            $manyToMany->addManyToMany($this);
+        }
+
+        return $this;
+    }
+
+    public function removeManyToMany(Post $manyToMany): self
+    {
+        if ($this->manyToMany->contains($manyToMany)) {
+            $this->manyToMany->removeElement($manyToMany);
+            $manyToMany->removeManyToMany($this);
         }
 
         return $this;

@@ -25,3 +25,25 @@ services:
 
     # add more service definitions when explicit configuration is needed
     # please note that last definitions always *replace* previous ones
+
+    App\Controller\Example\PostController:
+        autowire: true
+        autoconfigure: false
+        tags: ['controller.service_arguments']
+        parent: Goulaheau\RestBundle\Controller\RestController
+
+    App\Controller\Example\PostCategoryController:
+        autowire: true
+        autoconfigure: false
+        tags: ['controller.service_arguments']
+        parent: Goulaheau\RestBundle\Controller\RestController
+
+    App\Service\Example\PostService:
+        autowire: true
+        autoconfigure: false
+        parent: Goulaheau\RestBundle\Service\RestService
+
+    App\Service\Example\PostCategoryService:
+        autowire: true
+        autoconfigure: false
+        parent: Goulaheau\RestBundle\Service\RestService

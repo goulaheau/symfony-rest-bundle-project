@@ -5,7 +5,7 @@ namespace App\Controller\Example;
 use App\Entity\Example\Post;
 use App\Service\Example\PostService;
 use Goulaheau\RestBundle\Controller\RestController;
-use Goulaheau\RestBundle\Utils\RestSerializer;
+use Goulaheau\RestBundle\Core\RestSerializer;
 use Symfony\Component\Routing\Annotation\Route;
 
 /**
@@ -13,8 +13,8 @@ use Symfony\Component\Routing\Annotation\Route;
  */
 class PostController extends RestController
 {
-    public function __construct(PostService $service, RestSerializer $serializer)
+    public function __construct(PostService $service)
     {
-        parent::__construct(Post::class, $service, $serializer);
+        parent::__construct(Post::class, $service);
     }
 }

@@ -2,6 +2,8 @@
 
 namespace App\Entity\Example;
 
+use Doctrine\Common\Collections\ArrayCollection;
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Goulaheau\RestBundle\Entity\RestEntity;
 use Symfony\Component\Serializer\Annotation\Groups;
@@ -41,6 +43,22 @@ class Post extends RestEntity
      * @RestAssert\EntityExist
      */
     protected $category;
+
+    /**
+     * @ORM\OneToOne(targetEntity="App\Entity\Example\PostCategory", inversedBy="oneToOne", cascade={"persist", "remove"})
+     */
+    private $oneToOne;
+
+    /**
+     * @Groups({"readable", "editable"})
+     * @ORM\ManyToMany(targetEntity="App\Entity\Example\PostCategory", inversedBy="manyToMany")
+     */
+    private $manyToMany;
+
+    public function __construct()
+    {
+        $this->manyToMany = new ArrayCollection();
+    }
 
     public function getName(): ?string
     {
@@ -86,5 +104,43 @@ class Post extends RestEntity
     public function special2(string $string)
     {
         return $string . '?';
+    }
+
+    public function getOneToOne(): ?PostCategory
+    {
+        return $this->oneToOne;
+    }
+
+    public function setOneToOne(?PostCategory $oneToOne): self
+    {
+        $this->oneToOne = $oneToOne;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|PostCategory[]
+     */
+    public function getManyToMany(): Collection
+    {
+        return $this->manyToMany;
+    }
+
+    public function addManyToMany(PostCategory $manyToMany): self
+    {
+        if (!$this->manyToMany->contains($manyToMany)) {
+            $this->manyToMany[] = $manyToMany;
+        }
+
+        return $this;
+    }
+
+    public function removeManyToMany(PostCategory $manyToMany): self
+    {
+        if ($this->manyToMany->contains($manyToMany)) {
+            $this->manyToMany->removeElement($manyToMany);
+        }
+
+        return $this;
     }
 }
