@@ -16,6 +16,6 @@ class PostCategoryRepository extends RestRepository
 {
     public function __construct(RegistryInterface $registry)
     {
-        parent::__construct(PostCategory::class, $registry);
+        parent::__construct($registry, PostCategory::class);
     }
 }

@@ -1,0 +1,5 @@
+{
+    "oneToOne": [
+        "app.entity.example.post-category.oneToOne.entity-exist"
+    ]
+}
