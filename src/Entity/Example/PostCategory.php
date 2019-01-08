@@ -8,6 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 use Goulaheau\RestBundle\Entity\RestEntity;
 use Symfony\Component\Serializer\Annotation\Groups;
 use Symfony\Component\Validator\Constraints as Assert;
+use Goulaheau\RestBundle\Validator\Constraints as RestAssert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\Example\PostCategoryRepository")
@@ -35,6 +36,8 @@ class PostCategory extends RestEntity
 
     /**
      * @ORM\OneToOne(targetEntity="App\Entity\Example\Post", mappedBy="oneToOne", cascade={"persist", "remove"})
+     * @Groups({"readable", "editable"})
+     * @RestAssert\EntityExist
      */
     private $oneToOne;
 

@@ -1,0 +1,156 @@
+{
+  "name": "Post 4",
+  "posts": [],
+  "oneToOne": {
+    "name": "Post 1",
+    "description": null,
+    "category": {
+      "name": "Categorie 1",
+      "posts": [
+        {
+          "id": 1
+        },
+        {
+          "name": "Post 2",
+          "description": null,
+          "category": {
+            "id": 1
+          },
+          "manyToMany": [
+            {
+              "name": "Categorie 2",
+              "posts": [
+                {
+                  "name": "Post 3",
+                  "description": null,
+                  "category": {
+                    "id": 2
+                  },
+                  "manyToMany": [],
+                  "id": 3,
+                  "createdAt": "2018-12-17T10:25:31+00:00",
+                  "updatedAt": null
+                }
+              ],
+              "oneToOne": null,
+              "id": 2,
+              "createdAt": "2018-12-17T09:56:20+00:00",
+              "updatedAt": null
+            }
+          ],
+          "id": 2,
+          "createdAt": "2018-12-17T10:23:54+00:00",
+          "updatedAt": null
+        },
+        {
+          "name": "Post 4",
+          "description": null,
+          "category": {
+            "id": 1
+          },
+          "manyToMany": [],
+          "id": 4,
+          "createdAt": "2019-01-07T16:17:16+00:00",
+          "updatedAt": null
+        },
+        {
+          "name": "Post 4",
+          "description": null,
+          "category": {
+            "id": 1
+          },
+          "manyToMany": [
+            {
+              "id": 1
+            },
+            {
+              "name": "Categorie 2",
+              "posts": [
+                {
+                  "name": "Post 3",
+                  "description": null,
+                  "category": {
+                    "id": 2
+                  },
+                  "manyToMany": [],
+                  "id": 3,
+                  "createdAt": "2018-12-17T10:25:31+00:00",
+                  "updatedAt": null
+                }
+              ],
+              "oneToOne": null,
+              "id": 2,
+              "createdAt": "2018-12-17T09:56:20+00:00",
+              "updatedAt": null
+            },
+            {
+              "name": "Post 4",
+              "posts": [],
+              "oneToOne": null,
+              "id": 3,
+              "createdAt": "2019-01-07T15:41:02+00:00",
+              "updatedAt": null
+            }
+          ],
+          "id": 5,
+          "createdAt": "2019-01-07T16:23:22+00:00",
+          "updatedAt": null
+        },
+        {
+          "name": "Post 4",
+          "description": null,
+          "category": {
+            "id": 1
+          },
+          "manyToMany": [
+            {
+              "id": 1
+            },
+            {
+              "name": "Categorie 2",
+              "posts": [
+                {
+                  "name": "Post 3",
+                  "description": null,
+                  "category": {
+                    "id": 2
+                  },
+                  "manyToMany": [],
+                  "id": 3,
+                  "createdAt": "2018-12-17T10:25:31+00:00",
+                  "updatedAt": null
+                }
+              ],
+              "oneToOne": null,
+              "id": 2,
+              "createdAt": "2018-12-17T09:56:20+00:00",
+              "updatedAt": null
+            },
+            {
+              "name": "Post 4",
+              "posts": [],
+              "oneToOne": null,
+              "id": 3,
+              "createdAt": "2019-01-07T15:41:02+00:00",
+              "updatedAt": null
+            }
+          ],
+          "id": 6,
+          "createdAt": "2019-01-07T16:24:01+00:00",
+          "updatedAt": null
+        }
+      ],
+      "id": 1,
+      "createdAt": "2018-12-17T09:42:44+00:00",
+      "updatedAt": null,
+      "oneToOne": null
+    },
+    "manyToMany": [],
+    "id": 1,
+    "createdAt": "2018-12-17T10:22:34+00:00",
+    "updatedAt": "2019-01-08T10:05:20+00:00"
+  },
+  "id": 5,
+  "createdAt": "2019-01-08T10:05:20+00:00",
+  "updatedAt": null
+}
