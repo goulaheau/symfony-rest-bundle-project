@@ -36,8 +36,7 @@ class PostCategory extends RestEntity
 
     /**
      * @ORM\OneToOne(targetEntity="App\Entity\Example\Post", mappedBy="oneToOne", cascade={"persist", "remove"})
-     * @Groups({"readable", "editable"})
-     * @RestAssert\EntityExist
+     * @Groups({"readable"})
      */
     private $oneToOne;
 
