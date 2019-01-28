@@ -12,4 +12,5 @@ return [
     Symfony\Bundle\WebServerBundle\WebServerBundle::class => ['dev' => true],
     Nelmio\CorsBundle\NelmioCorsBundle::class => ['all' => true],
     Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
+    DMS\Bundle\FilterBundle\DMSFilterBundle::class => ['all' => true],
 ];
