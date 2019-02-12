@@ -10,6 +10,6 @@ class PostCategoryService extends RestService
 {
     public function __construct(PostCategoryRepository $repository)
     {
-        parent::__construct(PostCategory::class, $repository);
+        parent::__construct($repository, PostCategory::class);
     }
 }

@@ -10,6 +10,6 @@ class PostService extends RestService
 {
     public function __construct(PostRepository $repository)
     {
-        parent::__construct(Post::class, $repository);
+        parent::__construct($repository, Post::class);
     }
 }
